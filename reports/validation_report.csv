@@ -1,0 +1,40 @@
+scope,check,status,detail
+ef_library,required columns,PASS,all present
+ef_library,unique ef_id,PASS,61 factors
+ef_library,positive values,PASS,ok
+ef_library,pedigree scores in 1-5,PASS,ok
+ef_library,reference year <= study year,PASS,ok
+ef_library,dataset age <= 6 years,WARN,"older datasets (temporal penalty applied): ['EF-SIL-GLO-V', 'EF-PTFE-GLO-V']"
+ef_library,geographies in region hierarchy,PASS,ok
+settings,EoL fractions sum to 1 (RER),PASS,ok
+settings,treatment factors defined (RER),PASS,ok
+settings,EoL fractions sum to 1 (RNA),PASS,ok
+settings,treatment factors defined (RNA),PASS,ok
+settings,allocation key valid,PASS,mass
+settings,all products in factory allocation table,PASS,ok
+WK-200,BOM required columns,PASS,all present
+WK-200,unique component ids,PASS,ok
+WK-200,positive mass and quantity,PASS,ok
+WK-200,recycled content 0-100%,PASS,ok
+WK-200,ef_basis is mass|unit,PASS,ok
+WK-200,process in process-energy table,PASS,ok
+WK-200,every material mapped to an emission factor,PASS,18 lines mapped
+WK-200,every material has an end-of-life group,PASS,ok
+WK-200,recycled-content lines have a recycled dataset,PASS,ok
+WK-200,mass balance: product,PASS,BOM 627.1 g vs declared 627.1 g (0.00%)
+WK-200,mass balance: packaging,PASS,BOM 240.0 g vs declared 240.0 g (0.00%)
+WK-200,cut-off: excluded mass share,PASS,2.3 g excluded = 0.27% (limit 1.0%)
+WK-200,cut-off: estimated excluded impact,PASS,~0.0184 kg CO2e at proxy 8.0 kg/kg = 0.15% of PCF
+WM-100,BOM required columns,PASS,all present
+WM-100,unique component ids,PASS,ok
+WM-100,positive mass and quantity,PASS,ok
+WM-100,recycled content 0-100%,PASS,ok
+WM-100,ef_basis is mass|unit,PASS,ok
+WM-100,process in process-energy table,PASS,ok
+WM-100,every material mapped to an emission factor,PASS,21 lines mapped
+WM-100,every material has an end-of-life group,PASS,ok
+WM-100,recycled-content lines have a recycled dataset,PASS,ok
+WM-100,mass balance: product,PASS,BOM 99.4 g vs declared 99.4 g (0.00%)
+WM-100,mass balance: packaging,PASS,BOM 77.0 g vs declared 77.0 g (0.00%)
+WM-100,cut-off: excluded mass share,PASS,0.5 g excluded = 0.28% (limit 1.0%)
+WM-100,cut-off: estimated excluded impact,PASS,~0.0040 kg CO2e at proxy 8.0 kg/kg = 0.14% of PCF

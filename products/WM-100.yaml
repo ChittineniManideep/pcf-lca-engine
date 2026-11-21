@@ -1,0 +1,34 @@
+product_id: WM-100
+name: "WM-100 wireless rechargeable mouse (fictional)"
+declared_unit: "1 wireless mouse with charging cable and retail packaging, used for 4 years"
+declared_product_mass_g: 99.4
+declared_packaging_mass_g: 77.0
+
+manufacturing:
+  assembly_site: CN
+  assembly_energy_kwh_per_unit: 0.35      # metered SMT-to-pack line energy / units (primary activity data)
+
+distribution:
+  logistics_overhead_factor: 1.10         # master cartons, pallets, void space
+  inbound:
+    - {leg: inbound, mode: truck, distance_km: 150, region: CN}
+  outbound:
+    - {leg: factory_to_port, mode: truck, distance_km: 90, region: CN}
+    - {leg: port_to_port, mode: sea, distance_km: 19800, region: GLO}
+    - {leg: port_to_dc, mode: truck, distance_km: 220, region: RER}
+    - {leg: dc_to_retail, mode: truck, distance_km: 450, region: RER}
+  air_freight_share: 0.05                 # share of units expedited by air instead of sea
+  air_distance_km: 9300
+
+use:
+  region: RER
+  lifetime_years: 4
+  battery_wh_per_charge: 1.85
+  charges_per_year: 26
+  charger_efficiency: 0.85
+  receiver_power_w: 0.10                  # USB receiver draw from host PC
+  active_hours_per_year: 2500
+  consumables: []
+
+end_of_life:
+  region: RER

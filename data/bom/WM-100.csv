@@ -1,0 +1,24 @@
+component_id,component_name,material_class,ef_basis,mass_g,qty,process,supplier_id,origin_geography,recycled_content_pct,is_packaging,excluded,notes
+C01,Top shell,PC/ABS,mass,18.0,1,injection_moulding,SUP-PL1,CN,50,False,False,
+C02,Bottom shell,PC/ABS,mass,15.5,1,injection_moulding,SUP-PL1,CN,50,False,False,
+C03,Side grips,TPE,mass,4.0,1,injection_moulding,SUP-PL2,CN,0,False,False,
+C04,Left/right buttons,ABS,mass,6.0,1,injection_moulding,SUP-PL1,CN,0,False,False,
+C05,Scroll wheel core,POM,mass,2.5,1,injection_moulding,SUP-PL2,CN,0,False,False,
+C06,Scroll wheel tyre,silicone,mass,1.5,1,injection_moulding,SUP-PL2,CN,0,False,False,
+C07,Scroll flywheel and axle,stainless_steel,mass,6.0,1,sheet_stamping,SUP-MT1,CN,0,False,False,
+C08,Main PCBA,PCBA,mass,9.0,1,none,SUP-EL1,CN,0,False,False,Supplier PCF available
+C09,Optical sensor module,sensor_module,unit,1.2,1,none,SUP-EL2,TW,0,False,False,
+C10,Micro switches,microswitch,unit,0.8,3,none,SUP-EL2,CN,0,False,False,
+C11,Li-ion polymer battery 500mAh,li_ion_battery,mass,10.5,1,none,SUP-BT1,CN,0,False,False,Supplier PCF available
+C12,Internal screws,steel,mass,1.2,1,none,SUP-MT1,CN,0,False,False,
+C13,Glide feet,PTFE,mass,0.6,1,none,SUP-PL2,CN,0,False,False,
+C14,USB receiver PCBA,PCBA,mass,0.8,1,none,SUP-EL1,CN,0,False,False,
+C15,USB receiver housing,ABS,mass,1.0,1,injection_moulding,SUP-PL1,CN,0,False,False,
+C16,Internal wiring and flex,copper,mass,0.7,1,none,SUP-EL1,CN,0,False,False,
+C17,USB-C charging cable,cable,mass,18.0,1,none,SUP-CB1,CN,0,False,False,
+X01,Adhesives,adhesive,mass,0.3,1,none,SUP-PL2,CN,0,False,True,Cut-off (<1% mass)
+X02,Rating label,label,mass,0.2,1,none,SUP-PK1,CN,0,False,True,Cut-off (<1% mass)
+P01,Retail carton,corrugated_board,mass,45.0,1,none,SUP-PK1,CN,70,True,False,
+P02,Moulded pulp tray,moulded_pulp,mass,22.0,1,none,SUP-PK1,CN,0,True,False,
+P03,Quick start guide,paper,mass,8.0,1,none,SUP-PK1,CN,0,True,False,
+P04,Cable bag,LDPE,mass,2.0,1,none,SUP-PK1,CN,0,True,False,

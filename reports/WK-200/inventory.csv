@@ -1,0 +1,56 @@
+product_id,stage,sub_stage,component_id,item,activity_amount,activity_unit,ef_id,ef_value,ef_unit,kgco2e,data_type,category,reliability,completeness,temporal,geographical,technological,note,dqr,gsd95
+WK-200,raw_material_acquisition,materials,C01,Top case,0.21176470588235294,kg,EF-AL-CN-V,20.0,kg,4.235294117647059,secondary,material,2,2,2,1,1,gross input incl. 15% process scrap,1.6,1.0807255723670661
+WK-200,production,component_processing,C01,Top case — cnc_anodising,0.8894117647058823,kWh,EF-ELEC-CN,0.581,kWh,0.5167482352941176,secondary,energy,2,1,1,1,3,generic process energy intensity,1.6,1.2152396494091648
+WK-200,raw_material_acquisition,materials,C02,Bottom case,0.12371134020618557,kg,EF-PCABS-RAS-V|EF-PCABS-GLO-R@30%,4.375,kg,0.5412371134020619,secondary,material,2,2,2,2,2,30% recycled content blended; gross input incl. 3% process scrap,2.0,1.0966166783892835
+WK-200,production,component_processing,C02,Bottom case — injection_moulding,0.20412371134020618,kWh,EF-ELEC-CN,0.581,kWh,0.11859587628865978,secondary,energy,2,1,1,1,3,generic process energy intensity,1.6,1.2152396494091648
+WK-200,raw_material_acquisition,materials,C03,Keycaps (set),0.08762886597938145,kg,EF-ABS-GLO-V,3.6,kg,0.31546391752577324,secondary,material,2,2,2,3,1,gross input incl. 3% process scrap,2.0,1.0834154250740264
+WK-200,production,component_processing,C03,Keycaps (set) — injection_moulding,0.1445876288659794,kWh,EF-ELEC-CN,0.581,kWh,0.08400541237113403,secondary,energy,2,1,1,1,3,generic process energy intensity,1.6,1.2152396494091648
+WK-200,raw_material_acquisition,materials,C04,Scissor mechanisms,0.041237113402061855,kg,EF-POM-GLO-V,3.0,kg,0.12371134020618557,secondary,material,2,2,2,3,1,gross input incl. 3% process scrap,2.0,1.0834154250740264
+WK-200,production,component_processing,C04,Scissor mechanisms — injection_moulding,0.06804123711340206,kWh,EF-ELEC-CN,0.581,kWh,0.03953195876288659,secondary,energy,2,1,1,1,3,generic process energy intensity,1.6,1.2152396494091648
+WK-200,raw_material_acquisition,materials,C05,Rubber domes,0.020618556701030927,kg,EF-SIL-GLO-V,5.5,kg,0.1134020618556701,secondary,material,3,3,3,3,2,gross input incl. 3% process scrap,2.8,1.1738833161041422
+WK-200,production,component_processing,C05,Rubber domes — injection_moulding,0.03402061855670103,kWh,EF-ELEC-CN,0.581,kWh,0.019765979381443297,secondary,energy,2,1,1,1,3,generic process energy intensity,1.6,1.2152396494091648
+WK-200,raw_material_acquisition,materials,C06,Switch membrane,0.026315789473684213,kg,EF-PET-GLO-V,2.7,kg,0.07105263157894738,secondary,material,2,2,2,3,2,gross input incl. 5% process scrap,2.2,1.0983459763086971
+WK-200,production,component_processing,C06,Switch membrane — film_printing,0.02368421052631579,kWh,EF-ELEC-CN,0.581,kWh,0.013760526315789473,secondary,energy,2,1,1,1,3,generic process energy intensity,1.6,1.2152396494091648
+WK-200,raw_material_acquisition,materials,C07,Backplate,0.10795454545454546,kg,EF-STL-GLO-V,2.3,kg,0.24829545454545454,secondary,material,1,1,2,3,1,gross input incl. 12% process scrap,1.6,1.0622454211725116
+WK-200,production,component_processing,C07,Backplate — sheet_stamping,0.059375000000000004,kWh,EF-ELEC-CN,0.581,kWh,0.034496875,secondary,energy,2,1,1,1,3,generic process energy intensity,1.6,1.2152396494091648
+WK-200,raw_material_acquisition,materials,C08,Main PCBA,0.022,kg,EF-PCBA-RAS,128.0,kg,2.816,secondary,material,2,3,2,2,3,,2.4,1.2255136722753246
+WK-200,raw_material_acquisition,materials,C09,USB receiver PCBA,0.0008,kg,EF-PCBA-RAS,128.0,kg,0.1024,secondary,material,2,3,2,2,3,,2.4,1.2255136722753246
+WK-200,raw_material_acquisition,materials,C10,USB receiver housing,0.0010309278350515464,kg,EF-ABS-GLO-V,3.6,kg,0.0037113402061855674,secondary,material,2,2,2,3,1,gross input incl. 3% process scrap,2.0,1.0834154250740264
+WK-200,production,component_processing,C10,USB receiver housing — injection_moulding,0.0017010309278350515,kWh,EF-ELEC-CN,0.581,kWh,0.0009882989690721648,secondary,energy,2,1,1,1,3,generic process energy intensity,1.6,1.2152396494091648
+WK-200,raw_material_acquisition,materials,C11,Feet,0.006185567010309279,kg,EF-TPE-GLO-V,3.9,kg,0.02412371134020619,secondary,material,3,2,2,3,2,gross input incl. 3% process scrap,2.4,1.1325945352296471
+WK-200,production,component_processing,C11,Feet — injection_moulding,0.01020618556701031,kWh,EF-ELEC-CN,0.581,kWh,0.00592979381443299,secondary,energy,2,1,1,1,3,generic process energy intensity,1.6,1.2152396494091648
+WK-200,raw_material_acquisition,materials,C12,Screws,0.004,kg,EF-STL-GLO-V,2.3,kg,0.0092,secondary,material,1,1,2,3,1,,1.6,1.0622454211725116
+WK-200,raw_material_acquisition,materials,C13,AAA alkaline batteries (in box),2.0,unit,EF-ALK-GLO,0.075,unit,0.15,secondary,component,3,3,2,3,2,,2.6,1.1682969146430187
+WK-200,raw_material_acquisition,materials,C14,Copper flex,0.003,kg,EF-CU-GLO-V,4.1,kg,0.012299999999999998,secondary,material,2,2,2,3,1,,2.0,1.0834154250740264
+WK-200,packaging,materials,P01,Retail carton,0.16,kg,EF-CRTN-GLO-V|EF-CRTN-GLO-R@70%,0.9199999999999999,kg,0.1472,secondary,material,2,2,2,3,1,70% recycled content blended,2.0,1.0834154250740264
+WK-200,packaging,materials,P02,Moulded pulp insert,0.06,kg,EF-PULP-GLO,0.9,kg,0.054,secondary,material,3,2,2,3,2,,2.4,1.1325945352296471
+WK-200,packaging,materials,P03,User guide,0.015,kg,EF-PAPER-GLO,1.2,kg,0.018,secondary,material,2,2,2,3,2,,2.2,1.0983459763086971
+WK-200,packaging,materials,P04,Dust bag,0.005,kg,EF-LDPE-GLO-V,2.1,kg,0.0105,secondary,material,2,1,2,3,1,,1.8,1.0807255723670661
+WK-200,production,final_assembly,,Final assembly & test (metered),0.6,kWh,EF-ELEC-CN,0.581,kWh,0.34859999999999997,primary_activity,energy,2,1,1,1,1,,1.2,1.0714359004449265
+WK-200,production,factory_overhead,,Factory overhead (mass allocation),0.6746275079339465,kWh,EF-ELEC-CN,0.581,kWh,0.3919585821096229,primary_activity,energy,2,2,1,1,1,site-metered overhead allocated by mass,1.4,1.0744244531716256
+WK-200,distribution,inbound,,Supplier → assembly (truck),0.12971999999999997,tkm,EF-TRK-CN,0.118,tkm,0.015306959999999996,secondary,transport,2,2,2,1,2,,1.8,2.008686585742482
+WK-200,distribution,factory_to_port,,factory to port (truck),0.0856152,tkm,EF-TRK-CN,0.118,tkm,0.0101025936,secondary,transport,2,2,2,1,2,,1.8,2.008686585742482
+WK-200,distribution,port_to_port,,Ocean freight,18.45863712,tkm,EF-SEA-GLO,0.0115,tkm,0.21227432687999997,secondary,transport,2,2,1,1,1,98% of units,1.4,2.003998288059113
+WK-200,distribution,port_to_port,,Air freight (expedited),0.17693808,tkm,EF-AIR-GLO,0.8,tkm,0.14155046400000001,secondary,transport,2,2,1,1,1,2% of units,1.4,2.003998288059113
+WK-200,distribution,port_to_dc,,port to dc (truck),0.20928159999999998,tkm,EF-TRK-RER,0.092,tkm,0.0192539072,secondary,transport,2,1,1,1,1,,1.2,2.003433006431943
+WK-200,distribution,dc_to_retail,,dc to retail (truck),0.428076,tkm,EF-TRK-RER,0.092,tkm,0.039382992,secondary,transport,2,1,1,1,1,,1.2,2.003433006431943
+WK-200,use,electricity,,"Charging + receiver power, 5 years (RER)",1.25,kWh,EF-ELEC-RER,0.255,kWh,0.31875,secondary,energy,2,1,1,1,1,0.250 kWh/year,1.2,1.0714359004449265
+WK-200,use,consumables,,Replacement alkaline battery cells,4.666666666666667,unit,EF-ALK-GLO,0.075,unit,0.35000000000000003,secondary,component,3,3,2,3,2,indirect use-phase emissions,2.6,1.1682969146430187
+WK-200,end_of_life,battery_recycling,,battery product — battery_recycling,0.0098325,kg,EF-EOL-BATT,1.3,kg,0.01278225,secondary,eol,3,3,2,3,3,"RER, WEEE collection 45%",2.8,1.5819604831311342
+WK-200,end_of_life,incineration,,battery product — incineration,0.006957500000000001,kg,EF-EOL-INCIN-OTHER,0.45,kg,0.0031308750000000004,secondary,eol,3,3,2,3,3,"RER, WEEE collection 45%",2.8,1.5819604831311342
+WK-200,end_of_life,landfill,,battery product — landfill,0.00621,kg,EF-EOL-LANDFILL-INERT,0.02,kg,0.0001242,secondary,eol,3,3,2,3,2,"RER, WEEE collection 45%",2.6,1.5275872384453784
+WK-200,end_of_life,incineration,,electronics product — incineration,0.006897,kg,EF-EOL-INCIN-OTHER,0.45,kg,0.0031036500000000003,secondary,eol,3,3,2,3,3,"RER, WEEE collection 45%",2.8,1.5819604831311342
+WK-200,end_of_life,landfill,,electronics product — landfill,0.0056430000000000004,kg,EF-EOL-LANDFILL-INERT,0.02,kg,0.00011286000000000001,secondary,eol,3,3,2,3,2,"RER, WEEE collection 45%",2.6,1.5275872384453784
+WK-200,end_of_life,weee_treatment,,electronics product — weee_treatment,0.010259999999999998,kg,EF-EOL-WEEE,0.55,kg,0.005643,secondary,eol,3,3,2,3,3,"RER, WEEE collection 45%",2.8,1.5819604831311342
+WK-200,end_of_life,incineration,,metal product — incineration,0.08530500000000002,kg,EF-EOL-INCIN-OTHER,0.45,kg,0.03838725000000001,secondary,eol,3,3,2,3,3,"RER, WEEE collection 45%",2.8,1.5819604831311342
+WK-200,end_of_life,landfill,,metal product — landfill,0.079947,kg,EF-EOL-LANDFILL-INERT,0.02,kg,0.00159894,secondary,eol,3,3,2,3,2,"RER, WEEE collection 45%",2.6,1.5275872384453784
+WK-200,end_of_life,recycling,,metal product — recycling,0.11674800000000002,kg,EF-EOL-RECYC-METAL,0.08,kg,0.009339840000000002,secondary,eol,3,3,2,3,2,"RER, WEEE collection 45%",2.6,1.5275872384453784
+WK-200,end_of_life,incineration,,paper packaging — incineration,0.0282,kg,EF-EOL-INCIN-PAPER,0.03,kg,0.000846,secondary,eol,2,2,2,3,2,RER packaging scenario,2.2,1.511805877223475
+WK-200,end_of_life,landfill,,paper packaging — landfill,0.01175,kg,EF-EOL-LANDFILL-PAPER,0.95,kg,0.011162499999999999,secondary,eol,3,3,2,3,2,RER packaging scenario,2.6,1.5275872384453784
+WK-200,end_of_life,recycling,,paper packaging — recycling,0.19504999999999997,kg,EF-EOL-RECYC-PAPER,0.05,kg,0.009752499999999999,secondary,eol,3,3,2,3,2,RER packaging scenario,2.6,1.5275872384453784
+WK-200,end_of_life,incineration,,plastic product — incineration,0.1700325,kg,EF-EOL-INCIN-PLASTIC,2.35,kg,0.39957637500000004,secondary,eol,2,2,2,3,2,"RER, WEEE collection 45%",2.2,1.511805877223475
+WK-200,end_of_life,incineration,,plastic packaging — incineration,0.0021,kg,EF-EOL-INCIN-PLASTIC,2.35,kg,0.004935,secondary,eol,2,2,2,3,2,RER packaging scenario,2.2,1.511805877223475
+WK-200,end_of_life,landfill,,plastic product — landfill,0.08019000000000001,kg,EF-EOL-LANDFILL-INERT,0.02,kg,0.0016038000000000003,secondary,eol,3,3,2,3,2,"RER, WEEE collection 45%",2.6,1.5275872384453784
+WK-200,end_of_life,landfill,,plastic packaging — landfill,0.001,kg,EF-EOL-LANDFILL-INERT,0.02,kg,2e-05,secondary,eol,3,3,2,3,2,RER packaging scenario,2.6,1.5275872384453784
+WK-200,end_of_life,recycling,,plastic product — recycling,0.04677750000000001,kg,EF-EOL-RECYC-PLASTIC,0.15,kg,0.007016625000000001,secondary,eol,3,3,2,3,2,"RER, WEEE collection 45%",2.6,1.5275872384453784
+WK-200,end_of_life,recycling,,plastic packaging — recycling,0.0019,kg,EF-EOL-RECYC-PLASTIC,0.15,kg,0.000285,secondary,eol,3,3,2,3,2,RER packaging scenario,2.6,1.5275872384453784

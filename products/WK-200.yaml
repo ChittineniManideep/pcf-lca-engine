@@ -1,0 +1,35 @@
+product_id: WK-200
+name: "WK-200 wireless low-profile keyboard, aluminium top case (fictional)"
+declared_unit: "1 wireless keyboard with batteries and retail packaging, used for 5 years"
+declared_product_mass_g: 627.1
+declared_packaging_mass_g: 240.0
+
+manufacturing:
+  assembly_site: CN
+  assembly_energy_kwh_per_unit: 0.60
+
+distribution:
+  logistics_overhead_factor: 1.10
+  inbound:
+    - {leg: inbound, mode: truck, distance_km: 150, region: CN}
+  outbound:
+    - {leg: factory_to_port, mode: truck, distance_km: 90, region: CN}
+    - {leg: port_to_port, mode: sea, distance_km: 19800, region: GLO}
+    - {leg: port_to_dc, mode: truck, distance_km: 220, region: RER}
+    - {leg: dc_to_retail, mode: truck, distance_km: 450, region: RER}
+  air_freight_share: 0.02
+  air_distance_km: 9300
+
+use:
+  region: RER
+  lifetime_years: 5
+  battery_wh_per_charge: 0.0
+  charges_per_year: 0
+  charger_efficiency: 1.0
+  receiver_power_w: 0.10
+  active_hours_per_year: 2500
+  consumables:
+    - {material_class: alkaline_battery, cells_per_set: 2, replacement_interval_years: 1.5, initial_sets_in_bom: 1}
+
+end_of_life:
+  region: RER

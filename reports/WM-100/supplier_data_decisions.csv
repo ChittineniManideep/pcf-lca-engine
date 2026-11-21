@@ -1,0 +1,3 @@
+product_id,component_id,supplier_id,pcf_kgco2e_per_unit,boundary,reference_year,verification,decision,reason
+WM-100,C08,SUP-EL1,0.88,cradle-to-gate,2025,third_party,accepted,"meets boundary, age and verification rules"
+WM-100,C11,SUP-BT1,0.12,cradle-to-gate,2024,self_declared,accepted,"meets boundary, age and verification rules"

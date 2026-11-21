@@ -1,0 +1,5 @@
+supplier_id,product_id,component_id,part_description,pcf_kgco2e_per_unit,boundary,reference_year,verification,method,supplier_primary_data_share_pct
+SUP-EL1,WM-100,C08,Main PCBA (mouse),0.880,cradle-to-gate,2025,third_party,ISO 14067,62
+SUP-BT1,WM-100,C11,Li-ion polymer cell 500mAh,0.120,cradle-to-gate,2024,self_declared,PACT methodology,35
+SUP-EL1,WK-200,C08,Main PCBA (keyboard),2.050,cradle-to-gate,2019,third_party,ISO 14067,58
+SUP-PL1,WK-200,C02,Bottom case PC/ABS (moulded),0.410,gate-to-gate,2025,self_declared,Internal,80

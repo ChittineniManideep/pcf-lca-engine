@@ -1,0 +1,126 @@
+# Goal & scope definition (ISO 14044 §4.2, ISO 14067)
+study:
+  name: "Cradle-to-grave product carbon footprint — wireless peripherals (fictional products)"
+  standards: ["ISO 14067:2018", "ISO 14040:2006", "ISO 14044:2006", "GHG Protocol Product Standard"]
+  intended_application: "Hotspot identification, eco-design decisions and Scope 3 Cat 1/11/12 inputs"
+  reference_year: 2025
+  gwp_method: "IPCC AR6 GWP100 (kg CO2e)"
+  system_model: "Cut-off (recycled content) — recycling burdens to the user of recycled material, no credits in the total"
+  system_boundary: "Cradle-to-grave: raw materials, packaging, production, distribution, use, end of life"
+  excluded_processes:
+    - "Capital goods (moulds, factory buildings, SMT lines)"
+    - "Employee commuting and business travel of suppliers"
+    - "Retail store energy"
+    - "Adhesives and labels (below cut-off, see validation report)"
+  cutoff:
+    mass_threshold_pct: 1.0       # cumulative excluded mass share
+    impact_threshold_pct: 1.0     # estimated excluded impact share
+    proxy_ef_kgco2e_per_kg: 8.0   # conservative proxy to estimate excluded impact
+  allocation:
+    factory_overhead_key: mass    # mass | units | economic  (ISO 14044 §4.3.4 hierarchy: physical first)
+  mass_tolerance_pct: 2.0         # BOM sum vs declared product mass
+
+# Region hierarchy used for geographical-representativeness scoring and EF fallback
+regions:
+  CN: RAS
+  TW: RAS
+  VN: RAS
+  RAS: GLO
+  IE: RER
+  DE: RER
+  NL: RER
+  RER: GLO
+  US: RNA
+  RNA: GLO
+  GLO: null
+
+factory:
+  site: CN
+  annual_overhead_kwh: 1800000    # HVAC, lighting, compressed air — metered at site level
+
+material_groups:
+  PC/ABS: plastic
+  ABS: plastic
+  PC: plastic
+  POM: plastic
+  TPE: plastic
+  silicone: plastic
+  PTFE: plastic
+  PET: plastic
+  LDPE: plastic
+  aluminium: metal
+  steel: metal
+  stainless_steel: metal
+  copper: metal
+  PCBA: electronics
+  sensor_module: electronics
+  microswitch: electronics
+  cable: electronics
+  li_ion_battery: battery
+  alkaline_battery: battery
+  corrugated_board: paper
+  moulded_pulp: paper
+  paper: paper
+
+# End-of-life scenarios by market region (fractions per material group sum to 1)
+end_of_life:
+  RER:
+    weee_collection_rate: 0.45
+    collected:
+      plastic: {recycling: 0.35, incineration: 0.60, landfill: 0.05}
+      metal: {recycling: 0.92, landfill: 0.08}
+      electronics: {weee_treatment: 1.0}
+      battery: {battery_recycling: 0.95, landfill: 0.05}
+      paper: {recycling: 0.85, incineration: 0.15}
+    uncollected: {incineration: 0.55, landfill: 0.45}
+    packaging:
+      paper: {recycling: 0.83, incineration: 0.12, landfill: 0.05}
+      plastic: {recycling: 0.38, incineration: 0.42, landfill: 0.20}
+  RNA:
+    weee_collection_rate: 0.20
+    collected:
+      plastic: {recycling: 0.20, incineration: 0.30, landfill: 0.50}
+      metal: {recycling: 0.85, landfill: 0.15}
+      electronics: {weee_treatment: 1.0}
+      battery: {battery_recycling: 0.80, landfill: 0.20}
+      paper: {recycling: 0.70, landfill: 0.30}
+    uncollected: {incineration: 0.12, landfill: 0.88}
+    packaging:
+      paper: {recycling: 0.68, incineration: 0.07, landfill: 0.25}
+      plastic: {recycling: 0.10, incineration: 0.15, landfill: 0.75}
+
+treatment_ef_map:
+  plastic: {recycling: EF-EOL-RECYC-PLASTIC, incineration: EF-EOL-INCIN-PLASTIC, landfill: EF-EOL-LANDFILL-INERT}
+  metal: {recycling: EF-EOL-RECYC-METAL, incineration: EF-EOL-INCIN-OTHER, landfill: EF-EOL-LANDFILL-INERT}
+  electronics: {weee_treatment: EF-EOL-WEEE, incineration: EF-EOL-INCIN-OTHER, landfill: EF-EOL-LANDFILL-INERT}
+  battery: {battery_recycling: EF-EOL-BATT, incineration: EF-EOL-INCIN-OTHER, landfill: EF-EOL-LANDFILL-INERT}
+  paper: {recycling: EF-EOL-RECYC-PAPER, incineration: EF-EOL-INCIN-PAPER, landfill: EF-EOL-LANDFILL-PAPER}
+
+# Supplier-specific (primary) PCF acceptance rules
+supplier_data_rules:
+  max_age_years: 3
+  accepted_boundaries: [cradle-to-gate]
+  reliability_by_verification: {third_party: 1, self_declared: 3}
+
+# Biogenic carbon in fibre packaging — reported separately as required by ISO 14067
+biogenic:
+  carbon_fraction: {corrugated_board: 0.44, moulded_pulp: 0.43, paper: 0.42}
+  landfill_release_fraction: 0.5   # share of landfilled biogenic C released (rest stored)
+
+# Product life-cycle stage -> GHG Protocol Scope 3 category of the brand owner
+scope3:
+  mapping:
+    raw_material_acquisition: 1
+    packaging: 1
+    production: 1
+    "distribution:inbound": 1
+    "distribution:factory_to_port": 4
+    "distribution:port_to_port": 4
+    "distribution:port_to_dc": 4
+    "distribution:dc_to_retail": 9
+    "use:electricity": 11
+    "use:consumables": 11
+    end_of_life: 12
+  spend_based:
+    cogs_ratio: 0.45
+    ef_id: EF-SPEND-ELECTRONICS

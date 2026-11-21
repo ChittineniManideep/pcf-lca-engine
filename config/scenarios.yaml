@@ -1,0 +1,35 @@
+# Eco-design scenarios. Each change is applied on top of the baseline configuration.
+scenarios:
+  baseline:
+    description: "As-designed baseline"
+    changes: []
+
+  recycled_aluminium:
+    description: "Keyboard top case moves to 75% post-consumer recycled aluminium"
+    changes:
+      - {type: bom, product: WK-200, component: C01, field: recycled_content_pct, value: 75}
+
+  pcr_plastics:
+    description: "All PC/ABS and ABS housings move to 75% post-consumer recycled content"
+    changes:
+      - {type: bom_class, product: "*", material_class: PC/ABS, field: recycled_content_pct, value: 75}
+      - {type: bom_class, product: "*", material_class: ABS, field: recycled_content_pct, value: 75}
+
+  renewable_assembly:
+    description: "Contract manufacturer sources PV electricity via PPA for assembly and overhead (market-based)"
+    changes:
+      - {type: product, product: "*", path: manufacturing.grid_ef_override, value: EF-ELEC-CN-SOLAR}
+
+  no_air_freight:
+    description: "Expedited air freight eliminated; all units shipped by sea"
+    changes:
+      - {type: product, product: "*", path: distribution.air_freight_share, value: 0.0}
+
+  combined:
+    description: "Recycled aluminium + PCR plastics + renewable assembly + no air freight"
+    changes:
+      - {type: bom, product: WK-200, component: C01, field: recycled_content_pct, value: 75}
+      - {type: bom_class, product: "*", material_class: PC/ABS, field: recycled_content_pct, value: 75}
+      - {type: bom_class, product: "*", material_class: ABS, field: recycled_content_pct, value: 75}
+      - {type: product, product: "*", path: manufacturing.grid_ef_override, value: EF-ELEC-CN-SOLAR}
+      - {type: product, product: "*", path: distribution.air_freight_share, value: 0.0}

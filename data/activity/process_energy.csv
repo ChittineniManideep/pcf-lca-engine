@@ -1,0 +1,6 @@
+process,kwh_per_kg,scrap_rate,source
+injection_moulding,1.65,0.03,Illustrative generic process data
+cnc_anodising,4.20,0.15,Illustrative generic process data (stamping + CNC + anodising)
+sheet_stamping,0.55,0.12,Illustrative generic process data
+film_printing,0.90,0.05,Illustrative generic process data
+none,0.00,0.00,No processing modelled (purchased finished part)

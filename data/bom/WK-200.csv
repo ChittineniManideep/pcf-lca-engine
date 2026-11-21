@@ -1,0 +1,21 @@
+component_id,component_name,material_class,ef_basis,mass_g,qty,process,supplier_id,origin_geography,recycled_content_pct,is_packaging,excluded,notes
+C01,Top case,aluminium,mass,180.0,1,cnc_anodising,SUP-MT2,CN,0,False,False,Hotspot candidate
+C02,Bottom case,PC/ABS,mass,120.0,1,injection_moulding,SUP-PL1,CN,30,False,False,
+C03,Keycaps (set),ABS,mass,85.0,1,injection_moulding,SUP-PL3,CN,0,False,False,
+C04,Scissor mechanisms,POM,mass,40.0,1,injection_moulding,SUP-PL3,CN,0,False,False,
+C05,Rubber domes,silicone,mass,20.0,1,injection_moulding,SUP-PL3,CN,0,False,False,
+C06,Switch membrane,PET,mass,25.0,1,film_printing,SUP-EL3,CN,0,False,False,
+C07,Backplate,steel,mass,95.0,1,sheet_stamping,SUP-MT1,CN,0,False,False,
+C08,Main PCBA,PCBA,mass,22.0,1,none,SUP-EL1,CN,0,False,False,Supplier PCF provided (2019)
+C09,USB receiver PCBA,PCBA,mass,0.8,1,none,SUP-EL1,CN,0,False,False,
+C10,USB receiver housing,ABS,mass,1.0,1,injection_moulding,SUP-PL1,CN,0,False,False,
+C11,Feet,TPE,mass,6.0,1,injection_moulding,SUP-PL2,CN,0,False,False,
+C12,Screws,steel,mass,4.0,1,none,SUP-MT1,CN,0,False,False,
+C13,AAA alkaline batteries (in box),alkaline_battery,unit,11.5,2,none,SUP-BT2,CN,0,False,False,
+C14,Copper flex,copper,mass,3.0,1,none,SUP-EL1,CN,0,False,False,
+X01,Adhesive tape,adhesive,mass,1.5,1,none,SUP-PL3,CN,0,False,True,Cut-off (<1% mass)
+X02,Labels,label,mass,0.8,1,none,SUP-PK1,CN,0,False,True,Cut-off (<1% mass)
+P01,Retail carton,corrugated_board,mass,160.0,1,none,SUP-PK1,CN,70,True,False,
+P02,Moulded pulp insert,moulded_pulp,mass,60.0,1,none,SUP-PK1,CN,0,True,False,
+P03,User guide,paper,mass,15.0,1,none,SUP-PK1,CN,0,True,False,
+P04,Dust bag,LDPE,mass,5.0,1,none,SUP-PK1,CN,0,True,False,

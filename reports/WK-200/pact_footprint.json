@@ -1,0 +1,39 @@
+{
+  "id": "b17661b2-edca-504e-8ea9-f5ac1e713c15",
+  "specVersion": "PACT-style (simplified)",
+  "companyName": "Fictional Peripherals Co.",
+  "productIds": [
+    "urn:fictional:product:WK-200"
+  ],
+  "productDescription": "WK-200 wireless low-profile keyboard, aluminium top case (fictional)",
+  "pcf": {
+    "declaredUnit": "piece",
+    "unitaryProductAmount": 1,
+    "pCfExcludingBiogenic": 12.1863,
+    "fossilGhgEmissions": 12.1863,
+    "biogenicCarbonContent": 0.1025,
+    "characterizationFactors": "AR6",
+    "crossSectoralStandardsUsed": [
+      "ISO Standard 14067",
+      "GHG Protocol Product standard"
+    ],
+    "boundaryProcessesDescription": "Cradle-to-grave: raw materials, packaging, production, distribution, use, end of life",
+    "referencePeriodStart": "2025-01-01T00:00:00Z",
+    "referencePeriodEnd": "2025-12-31T23:59:59Z",
+    "geographyRegionOrSubregion": "Europe",
+    "primaryDataShare": 6.1,
+    "dqi": {
+      "coveragePercent": 100.0,
+      "dataQualityRating": 1.88
+    },
+    "uncertaintyAssessmentDescription": "Monte Carlo (10000 runs), pedigree-derived lognormal: 95% interval 11.580-12.991 kg CO2e",
+    "stageBreakdownKgCO2e": {
+      "raw_material_acquisition": 8.7662,
+      "packaging": 0.2297,
+      "production": 1.5744,
+      "distribution": 0.4379,
+      "use": 0.6687,
+      "end_of_life": 0.5094
+    }
+  }
+}

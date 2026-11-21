@@ -1,0 +1,223 @@
+product_id,stage,sub_stage,item,kgco2e,data_type,region,scope3_category
+WM-100,raw_material_acquisition,materials,Top shell,0.06541237113402062,secondary,RER,1
+WM-100,production,component_processing,Top shell — injection_moulding,0.017789381443298967,secondary,RER,1
+WM-100,raw_material_acquisition,materials,Bottom shell,0.05632731958762887,secondary,RER,1
+WM-100,production,component_processing,Bottom shell — injection_moulding,0.015318634020618553,secondary,RER,1
+WM-100,raw_material_acquisition,materials,Side grips,0.016082474226804123,secondary,RER,1
+WM-100,production,component_processing,Side grips — injection_moulding,0.003953195876288659,secondary,RER,1
+WM-100,raw_material_acquisition,materials,Left/right buttons,0.022268041237113404,secondary,RER,1
+WM-100,production,component_processing,Left/right buttons — injection_moulding,0.00592979381443299,secondary,RER,1
+WM-100,raw_material_acquisition,materials,Scroll wheel core,0.007731958762886598,secondary,RER,1
+WM-100,production,component_processing,Scroll wheel core — injection_moulding,0.002470747422680412,secondary,RER,1
+WM-100,raw_material_acquisition,materials,Scroll wheel tyre,0.008505154639175259,secondary,RER,1
+WM-100,production,component_processing,Scroll wheel tyre — injection_moulding,0.0014824484536082475,secondary,RER,1
+WM-100,raw_material_acquisition,materials,Scroll flywheel and axle,0.03272727272727273,secondary,RER,1
+WM-100,production,component_processing,Scroll flywheel and axle — sheet_stamping,0.00217875,secondary,RER,1
+WM-100,raw_material_acquisition,supplier_pcf,Main PCBA,0.88,primary,RER,1
+WM-100,raw_material_acquisition,materials,Optical sensor module,0.32,secondary,RER,1
+WM-100,raw_material_acquisition,materials,Micro switches,0.05399999999999999,secondary,RER,1
+WM-100,raw_material_acquisition,supplier_pcf,Li-ion polymer battery 500mAh,0.12,primary,RER,1
+WM-100,raw_material_acquisition,materials,Internal screws,0.0027599999999999994,secondary,RER,1
+WM-100,raw_material_acquisition,materials,Glide feet,0.005699999999999999,secondary,RER,1
+WM-100,raw_material_acquisition,materials,USB receiver PCBA,0.1024,secondary,RER,1
+WM-100,raw_material_acquisition,materials,USB receiver housing,0.0037113402061855674,secondary,RER,1
+WM-100,production,component_processing,USB receiver housing — injection_moulding,0.0009882989690721648,secondary,RER,1
+WM-100,raw_material_acquisition,materials,Internal wiring and flex,0.0028699999999999997,secondary,RER,1
+WM-100,raw_material_acquisition,materials,USB-C charging cable,0.16199999999999998,secondary,RER,1
+WM-100,packaging,materials,Retail carton,0.04139999999999999,secondary,RER,1
+WM-100,packaging,materials,Moulded pulp tray,0.019799999999999998,secondary,RER,1
+WM-100,packaging,materials,Quick start guide,0.0096,secondary,RER,1
+WM-100,packaging,materials,Cable bag,0.004200000000000001,secondary,RER,1
+WM-100,production,final_assembly,Final assembly & test (metered),0.20334999999999998,primary_activity,RER,1
+WM-100,production,factory_overhead,Factory overhead (mass allocation),0.06212834167070088,primary_activity,RER,1
+WM-100,distribution,inbound,Supplier → assembly (truck),0.0031134299999999995,secondary,RER,1
+WM-100,distribution,factory_to_port,factory to port (truck),0.0020548638,secondary,RER,4
+WM-100,distribution,port_to_port,Ocean freight,0.041854789350000005,secondary,RER,4
+WM-100,distribution,port_to_port,Air freight (expedited),0.07197828,secondary,RER,4
+WM-100,distribution,port_to_dc,port to dc (truck),0.003916237600000001,secondary,RER,4
+WM-100,distribution,dc_to_retail,dc to retail (truck),0.008010486,secondary,RER,9
+WM-100,use,electricity,"Charging + receiver power, 4 years (RER)",0.31272,secondary,RER,11
+WM-100,end_of_life,battery_recycling,battery product — battery_recycling,0.005835375000000001,secondary,RER,12
+WM-100,end_of_life,incineration,battery product — incineration,0.0014293125000000002,secondary,RER,12
+WM-100,end_of_life,landfill,battery product — landfill,5.670000000000001e-05,secondary,RER,12
+WM-100,end_of_life,incineration,electronics product — incineration,0.004274325,secondary,RER,12
+WM-100,end_of_life,landfill,electronics product — landfill,0.00015543,secondary,RER,12
+WM-100,end_of_life,weee_treatment,electronics product — weee_treatment,0.007771500000000001,secondary,RER,12
+WM-100,end_of_life,incineration,metal product — incineration,0.0010753875000000003,secondary,RER,12
+WM-100,end_of_life,landfill,metal product — landfill,4.479300000000001e-05,secondary,RER,12
+WM-100,end_of_life,recycling,metal product — recycling,0.000261648,secondary,RER,12
+WM-100,end_of_life,incineration,paper packaging — incineration,0.00026999999999999995,secondary,RER,12
+WM-100,end_of_life,landfill,paper packaging — landfill,0.0035624999999999997,secondary,RER,12
+WM-100,end_of_life,recycling,paper packaging — recycling,0.0031125,secondary,RER,12
+WM-100,end_of_life,incineration,plastic product — incineration,0.0660579125,secondary,RER,12
+WM-100,end_of_life,incineration,plastic packaging — incineration,0.001974,secondary,RER,12
+WM-100,end_of_life,landfill,plastic product — landfill,0.00026514,secondary,RER,12
+WM-100,end_of_life,landfill,plastic packaging — landfill,8.000000000000001e-06,secondary,RER,12
+WM-100,end_of_life,recycling,plastic product — recycling,0.0011599874999999999,secondary,RER,12
+WM-100,end_of_life,recycling,plastic packaging — recycling,0.000114,secondary,RER,12
+WM-100,raw_material_acquisition,materials,Top shell,0.06541237113402062,secondary,RNA,1
+WM-100,production,component_processing,Top shell — injection_moulding,0.017789381443298967,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,Bottom shell,0.05632731958762887,secondary,RNA,1
+WM-100,production,component_processing,Bottom shell — injection_moulding,0.015318634020618553,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,Side grips,0.016082474226804123,secondary,RNA,1
+WM-100,production,component_processing,Side grips — injection_moulding,0.003953195876288659,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,Left/right buttons,0.022268041237113404,secondary,RNA,1
+WM-100,production,component_processing,Left/right buttons — injection_moulding,0.00592979381443299,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,Scroll wheel core,0.007731958762886598,secondary,RNA,1
+WM-100,production,component_processing,Scroll wheel core — injection_moulding,0.002470747422680412,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,Scroll wheel tyre,0.008505154639175259,secondary,RNA,1
+WM-100,production,component_processing,Scroll wheel tyre — injection_moulding,0.0014824484536082475,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,Scroll flywheel and axle,0.03272727272727273,secondary,RNA,1
+WM-100,production,component_processing,Scroll flywheel and axle — sheet_stamping,0.00217875,secondary,RNA,1
+WM-100,raw_material_acquisition,supplier_pcf,Main PCBA,0.88,primary,RNA,1
+WM-100,raw_material_acquisition,materials,Optical sensor module,0.32,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,Micro switches,0.05399999999999999,secondary,RNA,1
+WM-100,raw_material_acquisition,supplier_pcf,Li-ion polymer battery 500mAh,0.12,primary,RNA,1
+WM-100,raw_material_acquisition,materials,Internal screws,0.0027599999999999994,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,Glide feet,0.005699999999999999,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,USB receiver PCBA,0.1024,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,USB receiver housing,0.0037113402061855674,secondary,RNA,1
+WM-100,production,component_processing,USB receiver housing — injection_moulding,0.0009882989690721648,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,Internal wiring and flex,0.0028699999999999997,secondary,RNA,1
+WM-100,raw_material_acquisition,materials,USB-C charging cable,0.16199999999999998,secondary,RNA,1
+WM-100,packaging,materials,Retail carton,0.04139999999999999,secondary,RNA,1
+WM-100,packaging,materials,Moulded pulp tray,0.019799999999999998,secondary,RNA,1
+WM-100,packaging,materials,Quick start guide,0.0096,secondary,RNA,1
+WM-100,packaging,materials,Cable bag,0.004200000000000001,secondary,RNA,1
+WM-100,production,final_assembly,Final assembly & test (metered),0.20334999999999998,primary_activity,RNA,1
+WM-100,production,factory_overhead,Factory overhead (mass allocation),0.06212834167070088,primary_activity,RNA,1
+WM-100,distribution,inbound,Supplier → assembly (truck),0.0031134299999999995,secondary,RNA,1
+WM-100,distribution,factory_to_port,factory to port (truck),0.0020548638,secondary,RNA,4
+WM-100,distribution,port_to_port,Ocean freight,0.041854789350000005,secondary,RNA,4
+WM-100,distribution,port_to_port,Air freight (expedited),0.07197828,secondary,RNA,4
+WM-100,distribution,port_to_dc,port to dc (truck),0.003916237600000001,secondary,RNA,4
+WM-100,distribution,dc_to_retail,dc to retail (truck),0.008010486,secondary,RNA,9
+WM-100,use,electricity,"Charging + receiver power, 4 years (RNA)",0.45375058823529413,secondary,RNA,11
+WM-100,end_of_life,battery_recycling,battery product — battery_recycling,0.0021840000000000006,secondary,RNA,12
+WM-100,end_of_life,incineration,battery product — incineration,0.0004536,secondary,RNA,12
+WM-100,end_of_life,landfill,battery product — landfill,0.00015624000000000004,secondary,RNA,12
+WM-100,end_of_life,incineration,electronics product — incineration,0.0013564799999999998,secondary,RNA,12
+WM-100,end_of_life,landfill,electronics product — landfill,0.0004421120000000001,secondary,RNA,12
+WM-100,end_of_life,weee_treatment,electronics product — weee_treatment,0.0034540000000000005,secondary,RNA,12
+WM-100,end_of_life,incineration,metal product — incineration,0.00034128,secondary,RNA,12
+WM-100,end_of_life,landfill,metal product — landfill,0.00011597200000000002,secondary,RNA,12
+WM-100,end_of_life,recycling,metal product — recycling,0.00010744,secondary,RNA,12
+WM-100,end_of_life,incineration,paper packaging — incineration,0.00015749999999999998,secondary,RNA,12
+WM-100,end_of_life,landfill,paper packaging — landfill,0.017812500000000002,secondary,RNA,12
+WM-100,end_of_life,recycling,paper packaging — recycling,0.00255,secondary,RNA,12
+WM-100,end_of_life,incineration,plastic product — incineration,0.01800006,secondary,RNA,12
+WM-100,end_of_life,incineration,plastic packaging — incineration,0.000705,secondary,RNA,12
+WM-100,end_of_life,landfill,plastic product — landfill,0.000789528,secondary,RNA,12
+WM-100,end_of_life,landfill,plastic packaging — landfill,3e-05,secondary,RNA,12
+WM-100,end_of_life,recycling,plastic product — recycling,0.0002946,secondary,RNA,12
+WM-100,end_of_life,recycling,plastic packaging — recycling,3e-05,secondary,RNA,12
+WK-200,raw_material_acquisition,materials,Top case,4.235294117647059,secondary,RER,1
+WK-200,production,component_processing,Top case — cnc_anodising,0.5167482352941176,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Bottom case,0.5412371134020619,secondary,RER,1
+WK-200,production,component_processing,Bottom case — injection_moulding,0.11859587628865978,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Keycaps (set),0.31546391752577324,secondary,RER,1
+WK-200,production,component_processing,Keycaps (set) — injection_moulding,0.08400541237113403,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Scissor mechanisms,0.12371134020618557,secondary,RER,1
+WK-200,production,component_processing,Scissor mechanisms — injection_moulding,0.03953195876288659,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Rubber domes,0.1134020618556701,secondary,RER,1
+WK-200,production,component_processing,Rubber domes — injection_moulding,0.019765979381443297,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Switch membrane,0.07105263157894738,secondary,RER,1
+WK-200,production,component_processing,Switch membrane — film_printing,0.013760526315789473,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Backplate,0.24829545454545454,secondary,RER,1
+WK-200,production,component_processing,Backplate — sheet_stamping,0.034496875,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Main PCBA,2.816,secondary,RER,1
+WK-200,raw_material_acquisition,materials,USB receiver PCBA,0.1024,secondary,RER,1
+WK-200,raw_material_acquisition,materials,USB receiver housing,0.0037113402061855674,secondary,RER,1
+WK-200,production,component_processing,USB receiver housing — injection_moulding,0.0009882989690721648,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Feet,0.02412371134020619,secondary,RER,1
+WK-200,production,component_processing,Feet — injection_moulding,0.00592979381443299,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Screws,0.0092,secondary,RER,1
+WK-200,raw_material_acquisition,materials,AAA alkaline batteries (in box),0.15,secondary,RER,1
+WK-200,raw_material_acquisition,materials,Copper flex,0.012299999999999998,secondary,RER,1
+WK-200,packaging,materials,Retail carton,0.1472,secondary,RER,1
+WK-200,packaging,materials,Moulded pulp insert,0.054,secondary,RER,1
+WK-200,packaging,materials,User guide,0.018,secondary,RER,1
+WK-200,packaging,materials,Dust bag,0.0105,secondary,RER,1
+WK-200,production,final_assembly,Final assembly & test (metered),0.34859999999999997,primary_activity,RER,1
+WK-200,production,factory_overhead,Factory overhead (mass allocation),0.3919585821096229,primary_activity,RER,1
+WK-200,distribution,inbound,Supplier → assembly (truck),0.015306959999999996,secondary,RER,1
+WK-200,distribution,factory_to_port,factory to port (truck),0.0101025936,secondary,RER,4
+WK-200,distribution,port_to_port,Ocean freight,0.21227432687999997,secondary,RER,4
+WK-200,distribution,port_to_port,Air freight (expedited),0.14155046400000001,secondary,RER,4
+WK-200,distribution,port_to_dc,port to dc (truck),0.0192539072,secondary,RER,4
+WK-200,distribution,dc_to_retail,dc to retail (truck),0.039382992,secondary,RER,9
+WK-200,use,electricity,"Charging + receiver power, 5 years (RER)",0.31875,secondary,RER,11
+WK-200,use,consumables,Replacement alkaline battery cells,0.35000000000000003,secondary,RER,11
+WK-200,end_of_life,battery_recycling,battery product — battery_recycling,0.01278225,secondary,RER,12
+WK-200,end_of_life,incineration,battery product — incineration,0.0031308750000000004,secondary,RER,12
+WK-200,end_of_life,landfill,battery product — landfill,0.0001242,secondary,RER,12
+WK-200,end_of_life,incineration,electronics product — incineration,0.0031036500000000003,secondary,RER,12
+WK-200,end_of_life,landfill,electronics product — landfill,0.00011286000000000001,secondary,RER,12
+WK-200,end_of_life,weee_treatment,electronics product — weee_treatment,0.005643,secondary,RER,12
+WK-200,end_of_life,incineration,metal product — incineration,0.03838725000000001,secondary,RER,12
+WK-200,end_of_life,landfill,metal product — landfill,0.00159894,secondary,RER,12
+WK-200,end_of_life,recycling,metal product — recycling,0.009339840000000002,secondary,RER,12
+WK-200,end_of_life,incineration,paper packaging — incineration,0.000846,secondary,RER,12
+WK-200,end_of_life,landfill,paper packaging — landfill,0.011162499999999999,secondary,RER,12
+WK-200,end_of_life,recycling,paper packaging — recycling,0.009752499999999999,secondary,RER,12
+WK-200,end_of_life,incineration,plastic product — incineration,0.39957637500000004,secondary,RER,12
+WK-200,end_of_life,incineration,plastic packaging — incineration,0.004935,secondary,RER,12
+WK-200,end_of_life,landfill,plastic product — landfill,0.0016038000000000003,secondary,RER,12
+WK-200,end_of_life,landfill,plastic packaging — landfill,2e-05,secondary,RER,12
+WK-200,end_of_life,recycling,plastic product — recycling,0.007016625000000001,secondary,RER,12
+WK-200,end_of_life,recycling,plastic packaging — recycling,0.000285,secondary,RER,12
+WK-200,raw_material_acquisition,materials,Top case,4.235294117647059,secondary,RNA,1
+WK-200,production,component_processing,Top case — cnc_anodising,0.5167482352941176,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Bottom case,0.5412371134020619,secondary,RNA,1
+WK-200,production,component_processing,Bottom case — injection_moulding,0.11859587628865978,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Keycaps (set),0.31546391752577324,secondary,RNA,1
+WK-200,production,component_processing,Keycaps (set) — injection_moulding,0.08400541237113403,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Scissor mechanisms,0.12371134020618557,secondary,RNA,1
+WK-200,production,component_processing,Scissor mechanisms — injection_moulding,0.03953195876288659,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Rubber domes,0.1134020618556701,secondary,RNA,1
+WK-200,production,component_processing,Rubber domes — injection_moulding,0.019765979381443297,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Switch membrane,0.07105263157894738,secondary,RNA,1
+WK-200,production,component_processing,Switch membrane — film_printing,0.013760526315789473,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Backplate,0.24829545454545454,secondary,RNA,1
+WK-200,production,component_processing,Backplate — sheet_stamping,0.034496875,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Main PCBA,2.816,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,USB receiver PCBA,0.1024,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,USB receiver housing,0.0037113402061855674,secondary,RNA,1
+WK-200,production,component_processing,USB receiver housing — injection_moulding,0.0009882989690721648,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Feet,0.02412371134020619,secondary,RNA,1
+WK-200,production,component_processing,Feet — injection_moulding,0.00592979381443299,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Screws,0.0092,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,AAA alkaline batteries (in box),0.15,secondary,RNA,1
+WK-200,raw_material_acquisition,materials,Copper flex,0.012299999999999998,secondary,RNA,1
+WK-200,packaging,materials,Retail carton,0.1472,secondary,RNA,1
+WK-200,packaging,materials,Moulded pulp insert,0.054,secondary,RNA,1
+WK-200,packaging,materials,User guide,0.018,secondary,RNA,1
+WK-200,packaging,materials,Dust bag,0.0105,secondary,RNA,1
+WK-200,production,final_assembly,Final assembly & test (metered),0.34859999999999997,primary_activity,RNA,1
+WK-200,production,factory_overhead,Factory overhead (mass allocation),0.3919585821096229,primary_activity,RNA,1
+WK-200,distribution,inbound,Supplier → assembly (truck),0.015306959999999996,secondary,RNA,1
+WK-200,distribution,factory_to_port,factory to port (truck),0.0101025936,secondary,RNA,4
+WK-200,distribution,port_to_port,Ocean freight,0.21227432687999997,secondary,RNA,4
+WK-200,distribution,port_to_port,Air freight (expedited),0.14155046400000001,secondary,RNA,4
+WK-200,distribution,port_to_dc,port to dc (truck),0.0192539072,secondary,RNA,4
+WK-200,distribution,dc_to_retail,dc to retail (truck),0.039382992,secondary,RNA,9
+WK-200,use,electricity,"Charging + receiver power, 5 years (RNA)",0.4625,secondary,RNA,11
+WK-200,use,consumables,Replacement alkaline battery cells,0.35000000000000003,secondary,RNA,11
+WK-200,end_of_life,battery_recycling,battery product — battery_recycling,0.004784000000000001,secondary,RNA,12
+WK-200,end_of_life,incineration,battery product — incineration,0.0009936,secondary,RNA,12
+WK-200,end_of_life,landfill,battery product — landfill,0.00034224000000000006,secondary,RNA,12
+WK-200,end_of_life,incineration,electronics product — incineration,0.00098496,secondary,RNA,12
+WK-200,end_of_life,landfill,electronics product — landfill,0.00032102400000000005,secondary,RNA,12
+WK-200,end_of_life,weee_treatment,electronics product — weee_treatment,0.0025080000000000007,secondary,RNA,12
+WK-200,end_of_life,incineration,metal product — incineration,0.0121824,secondary,RNA,12
+WK-200,end_of_life,landfill,metal product — landfill,0.004139760000000001,secondary,RNA,12
+WK-200,end_of_life,recycling,metal product — recycling,0.0038352,secondary,RNA,12
+WK-200,end_of_life,incineration,paper packaging — incineration,0.0004935,secondary,RNA,12
+WK-200,end_of_life,landfill,paper packaging — landfill,0.055812499999999994,secondary,RNA,12
+WK-200,end_of_life,recycling,paper packaging — recycling,0.00799,secondary,RNA,12
+WK-200,end_of_life,incineration,plastic product — incineration,0.10888020000000001,secondary,RNA,12
+WK-200,end_of_life,incineration,plastic packaging — incineration,0.0017625000000000002,secondary,RNA,12
+WK-200,end_of_life,landfill,plastic product — landfill,0.00477576,secondary,RNA,12
+WK-200,end_of_life,landfill,plastic packaging — landfill,7.5e-05,secondary,RNA,12
+WK-200,end_of_life,recycling,plastic product — recycling,0.0017820000000000006,secondary,RNA,12
+WK-200,end_of_life,recycling,plastic packaging — recycling,7.5e-05,secondary,RNA,12
